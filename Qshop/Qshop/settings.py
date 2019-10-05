@@ -20,12 +20,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'b1-7%j1qx3o=+mbf8(@!n0#@2fck&t8-!=vau_i69+ya)9(zcp'
+SECRET_KEY = 'gq-8!w=snymng)6x+*3z&chn49adr3(5l(b&$$6h%tugy1oep^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,9 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Buyer',
+    'Seller',
+    'djcelery'
 ]
 
 MIDDLEWARE = [
+    'django.middleware.cache.UpdateCacheMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -47,6 +51,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'Qshop.middleware.MiddleWareTest',
+    'django.middleware.cache.FetchFromCacheMiddleware'
 ]
 
 ROOT_URLCONF = 'Qshop.urls'
@@ -103,18 +109,88 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS=(
+    os.path.join(BASE_DIR,"static"),
+)
+# STATIC_ROOT=os.path.join(BASE_DIR,'static')
+MEDIA_URL="/media/"
+MEDIA_ROOT=os.path.join(BASE_DIR,"static")
+
+
+
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION':[
+            "127.0.0.1:11211"
+        ]
+    }
+}
+CACHE_MIDDLEWARE_KEY_PREFIX = ''
+CACHE_MIDDLEWARE_SECONDS = 600
+CACHE_MIDDLEWARE_ALIAS = 'default'
+
+alipay_public_key_string = """-----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvIpEqSdDNQiW3qIgwoAqIOxuEEKBYK4dioMkWUj7WWMP4Wozlmxlzvt9Xtq77GwcSD7FCJZPqqqvT+vmRtpmVvUvDRk7fOfFMQHNShOBBIQuWBIUL+rjQ+VJXPbYgu+6yJVS4xd+sqHZsPw2/DI5xinHMsUdPdi3kyyYR8qI9vEdjKBM9aC1FcjF1yG7fnE/z5z4okHSzM99lq+zTphOeWepu3ilrV/Dqm6J4Grm4NoGkXjkGRe/yVgiUx84Fv2Dk2Jyy8P53PrUK5Jll4fcf/4ENlQ5czdbqjva12IyDqCPHg9RwhbzpKHKYfK8nvz+oTQawrIg4abqH1ai3pLWVwIDAQAB
+    -----END PUBLIC KEY-----"""
+
+alipay_private_key_string = """-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAvIpEqSdDNQiW3qIgwoAqIOxuEEKBYK4dioMkWUj7WWMP4Wozlmxlzvt9Xtq77GwcSD7FCJZPqqqvT+vmRtpmVvUvDRk7fOfFMQHNShOBBIQuWBIUL+rjQ+VJXPbYgu+6yJVS4xd+sqHZsPw2/DI5xinHMsUdPdi3kyyYR8qI9vEdjKBM9aC1FcjF1yG7fnE/z5z4okHSzM99lq+zTphOeWepu3ilrV/Dqm6J4Grm4NoGkXjkGRe/yVgiUx84Fv2Dk2Jyy8P53PrUK5Jll4fcf/4ENlQ5czdbqjva12IyDqCPHg9RwhbzpKHKYfK8nvz+oTQawrIg4abqH1ai3pLWVwIDAQABAoIBAQCCw6tnXpHgYHqzIuNxww51E0YrBNVSxrA6d0ZonpOlpW1IPC5XcAsUiZykgzS/fyQGf3KMyCOtDQDWf5iRH7zHJvphLVTzBpTfro5BiFF9Xmf+MVvK+DBz0L0XOyVjev2jTN3WH1+CaXrgo61HMVacuDEuZ0Qmtv5rlwxvDmv8SIHIbz2+L2F0Hc9mE6QnXph5LEA3ZmyI/Gyc6NVoWNM7Tdx5Gkh/dIoobnwX9Psc+afjiGBUw1BKJWCx3UPHFt6nW6m4N3sYYbumlN9Q1L0emrBvRa5MYTZYx8pxiNn9N2Mdsn1X68KDsY8o6Wi1YhOQsAilnM00sL2RKii5SlKBAoGBAOaauZb+HTqkSR2wYzJOZQWRCLcrBYlgpKzLMGJczHUOv/ka164m0PGNt/7buYoHknNbSOB4vQ5VyP5kJroHdXBzBDJL1D39MeBeboZ9DdmEb7jH2k3+mGl/ii4sFzdkxNLYJ2sU52tZydC+vPgiJ94J93fekDEbU+UFBrfeuFx3AoGBANFNpzD8Vu5AtOHywSL4oqCL7+d3oEpILEVcJKkf8bL7j94YaEbZYJKIK1aAoETbPDdHQzKgDVkCKjtECaNxwEujJ32tCuVFSAufijqxm3GiSeSZ+knK1t5JHiFEmgt4HpMvyQrx2HsPYT8RJ/LVx+6BkSHfrNGcueTR/3s9Yi0hAoGAB9qNJ49P/4dI1jIDrtrspdviqBpW/e7ErP3ej/sJG5N9BkbbwZqg0xk4gv2IvCK14ifhu4NhLPPO/Jr8lqlaXpIMOopKmDHfWPzeVsY7ioTwKSLlVHKvTiiB1EC8Ka7M5UFnVkZH+2f7b5iPZwQCx5UfUH3L+2Aq40ngiLKVJNECgYAVgMHVgYc40QMEV5lKC3tBvT63bA3Ws9WAhrfpfDOrrLaaHa3Q4ZJPW5gAOhS9HjzwfOzFbbYRV+yYzCOlXBFic++htL5y0YxWTVy5LPgIU6D90GfrXuB2U9K5nj+pP/z8KCOicThJZEocXZnaE+aHdV5AuacandxnSr/RnHvSoQKBgQDgnrk+CvzfNnX/e23dNzY5bbZBlWo7o+wL+/VGa1CHDx08QO+cYviSqqg0oAizNj+3rvEnetXelV7fqck9FC+3mo1mg99G9WBq8Q0aAHRcH0DS+fzO051nogOaKlCqBOoPx7LlavpzW+iRsWhpVADA2SslDT2wI8r1ZR/zyGSnjA==
+-----END RSA PRIVATE KEY-----"""
+
+DING_URL = "https://oapi.dingtalk.com/robot/send?access_token=f4fd508235765957cf73ee30bc84bf178b667b5b88e150aa5f5db080ee5205bb"
+
+import djcelery
+djcelery.setup_loader()
+BROKER_URL='redis://127.0.0.1:6379/1'
+CELERY_IMPORTS=('CeleryTask.tasks')
+CELERY_TIMEZONE="Asia/Shanghai"
+CELERYBEAT_SCHEDULER="djcelery.schedulers.DatabaseScheduler"
+
+
+# from celery.schedules import crontab
+# from celery.schedules import timedelta
+# CELERYBEAT_SCHEDULE={
+#     u'测试任务1':{
+#         "task":"CeleryTask.tasks.sendDing",   #任务函数
+#         "schedule":timedelta(seconds=1)      #执行时间    每秒执行一次
+#     }
+# }
+
+ERROR_PATH=os.path.join(BASE_DIR,"error.log")
+
+
+LOGGING={
+    'version':1,
+    'disable_existing_logger':False,
+    'handlers':{
+        "file":{
+            'level':'DEBUG',
+            'class':'logging.FileHandler',
+            'filename':os.path.join(BASE_DIR,"django.log")
+        }
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['file'],
+            'level': 'DEBUG',
+            'propagate': True
+        }
+    }
+}
