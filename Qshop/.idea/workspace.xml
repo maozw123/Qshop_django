@@ -1,10 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2be5376-6851-4e6a-8623-83810fb57e10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Buyter/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seller/urls.py" afterDir="false" />
+    <list default="true" id="e0e5e804-fc3f-4a87-ad7a-a49018f89345" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Qshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Qshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/css/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/adv01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/adv02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/banner06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/fruit.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods002.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods003.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods005.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods006.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods007.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods008.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods009.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods010.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods011.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods012.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods013.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods014.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods015.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods016.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods018.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods019.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods/goods021.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/goods_detail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/icons02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/interval_line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/left_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/login_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/logo02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/pay_icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/register_banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/shop_cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/slide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/slide02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/slide03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/images/slide04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/js/jquery-1.12.4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/js/jquery.cookie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/static/buyer/js/slide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/templates/buyer/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Buyter/views.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Qshop/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qshop/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qshop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qshop/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seller/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seller/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seller/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seller/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seller/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Seller/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,28 +80,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Seller/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Qshop/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-529">
+              <caret line="159" column="23" lean-forward="true" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Qshop/settings.py">
+        <entry file="file://$PROJECT_DIR$/Seller/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="159" column="23" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+            <state relative-caret-position="12">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Buyer/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Buyter/urls.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Qshop/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-720">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -41,9 +156,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&quot;images/</find>
+      <find>&quot;js/</find>
+      <find>class=&quot;main_wrap clearfix&quot;</find>
+      <find>class=&quot;main_con clearfix&quot;</find>
+      <find>src=&quot;/static/buyer/images/logo.png&quot;</find>
+      <find>class=&quot;order_submit clearfix&quot;</find>
+      <find>out_trade_no</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;/static/buyer/images/</replace>
+      <replace>&quot;/static/buyer/js/</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\python\DjangoFrameWork\Qshop\Buyer\templates\buyer</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -51,25 +186,60 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Seller/urls.py" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/personal_info.html" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/register.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/login.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/register.html" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/goods_add.html" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/index.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/DjangoLogin/LoginUser/views.py" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/datail.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/index.html" />
+        <option value="$PROJECT_DIR$/Qshop/urls.py" />
+        <option value="C:/Program Files/feiq/Recv Files/天天生鲜水果蔬菜商城网站静态模板/place_order.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/templates/buyer/pay_order.html" />
+        <option value="$PROJECT_DIR$/Buyer/aipaypriject.py" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/pay_result.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/pay_order.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/detail.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/templates/buyer/goods_list.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/templates/buyer/cart.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/views.py" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/user_center_order.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/user_center_info.html" />
+        <option value="$PROJECT_DIR$/sendMail.html" />
+        <option value="$PROJECT_DIR$/Seller/sendMail.py" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/login.html" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/random—code.py" />
+        <option value="$PROJECT_DIR$/Qshop/celery.py" />
+        <option value="$PROJECT_DIR$/CeleryTask/tasks.py" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/goods_list.html" />
+        <option value="$PROJECT_DIR$/Buyer/models.py" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/order_list.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/views.py" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/base.html" />
+        <option value="$PROJECT_DIR$/Seller/templates/seller/base.html" />
+        <option value="$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/urls.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/Seller/models.py" />
+        <option value="$PROJECT_DIR$/Qshop/test.log" />
+        <option value="$PROJECT_DIR$/Qshop/loggggg.py" />
+        <option value="$PROJECT_DIR$/Qshop/assert11111.py" />
+        <option value="$PROJECT_DIR$/Qshop/seleniumproject.py" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/cart.html" />
+        <option value="$PROJECT_DIR$/Buyer/templates/buyer/goods_list.html" />
+        <option value="$PROJECT_DIR$/Seller/views.py" />
+        <option value="$PROJECT_DIR$/Buyer/views.py" />
         <option value="$PROJECT_DIR$/Qshop/settings.py" />
-        <option value="$PROJECT_DIR$/Buyter/urls.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Qshop.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/Seller/urls.py" />
+        <option value="$PROJECT_DIR$/Buyer/urls.py" />
+        <option value="$PROJECT_DIR$/Qshop/middleware.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="69" />
-    <option name="y" value="16" />
+    <option name="x" value="-12" />
+    <option name="y" value="43" />
     <option name="width" value="701" />
     <option name="height" value="713" />
   </component>
@@ -86,11 +256,6 @@
             <path>
               <item name="Qshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="Qshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Qshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Qshop" type="462c0819:PsiDirectoryNode" />
-              <item name="Buyter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Qshop" type="b2602c69:ProjectViewProjectNode" />
@@ -122,11 +287,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\python\DjangoFrameWork\Qshop\Buyer\templates\buyer" />
+      <recent name="E:\python\DjangoFrameWork\Qshop\static\buyer\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,8 +314,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Qshop" type="Python.DjangoServer" factoryName="Django server">
+  <component name="RunManager" selected="Django server.Qshop">
+    <configuration name="assert11111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Qshop" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,13 +323,124 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qshop/assert11111.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="loggggg" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Qshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qshop/loggggg.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random—code" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Qshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seller/templates/seller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seller/templates/seller/random—code.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="seleniumproject" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Qshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Qshop" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Qshop/seleniumproject.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sendMail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Qshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Seller" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Seller/sendMail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Qshop" type="Python.DjangoServer" factoryName="Django server">
+      <module name="Qshop" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Qshop.settings" />
+      </envs>
+      <option name="SDK_HOME" value="E:\Anaconda\envs\DjangoPath\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -164,74 +449,325 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Django server.Qshop" />
+      <item itemvalue="Python.random—code" />
+      <item itemvalue="Python.sendMail" />
+      <item itemvalue="Python.loggggg" />
+      <item itemvalue="Python.assert11111" />
+      <item itemvalue="Python.seleniumproject" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.assert11111" />
+        <item itemvalue="Python.seleniumproject" />
+        <item itemvalue="Python.loggggg" />
+        <item itemvalue="Python.random—code" />
+        <item itemvalue="Python.sendMail" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c2be5376-6851-4e6a-8623-83810fb57e10" name="Default Changelist" comment="" />
-      <created>1570256887249</created>
+      <changelist id="e0e5e804-fc3f-4a87-ad7a-a49018f89345" name="Default Changelist" comment="" />
+      <created>1567994782937</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1570256887249</updated>
-      <workItem from="1570256894640" duration="803000" />
+      <updated>1567994782937</updated>
+      <workItem from="1567994788252" duration="31355000" />
+      <workItem from="1568075350994" duration="4979000" />
+      <workItem from="1568085656937" duration="20830000" />
+      <workItem from="1568161870581" duration="21217000" />
+      <workItem from="1568248247710" duration="2693000" />
+      <workItem from="1568600198353" duration="27563000" />
+      <workItem from="1568680083641" duration="18796000" />
+      <workItem from="1568766560259" duration="16086000" />
+      <workItem from="1568806065539" duration="5755000" />
+      <workItem from="1568852975723" duration="11114000" />
+      <workItem from="1568890410635" duration="12250000" />
+      <workItem from="1568939549393" duration="11149000" />
+      <workItem from="1568981212030" duration="2085000" />
+      <workItem from="1569030529281" duration="7155000" />
+      <workItem from="1569126024762" duration="303000" />
+      <workItem from="1569198487686" duration="1924000" />
+      <workItem from="1569420045373" duration="1533000" />
+      <workItem from="1570258774988" duration="1373000" />
+      <workItem from="1570453236326" duration="399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="803000" />
+    <option name="totallyTimeSpent" value="198559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17170954" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7266776" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Database Console" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.10294118" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="12" weight="0.31862745" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.051635113" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.05824508" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27987897" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27287582" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10294118" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.17555939" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info active="true" anchor="right" id="Database" order="4" visible="true" weight="0.37594554" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Qshop$aipaypriject.coverage" NAME="aipaypriject Coverage Results" MODIFIED="1568199936527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Buyer" />
+    <SUITE FILE_PATH="coverage/Qshop$seleniumproject.coverage" NAME="seleniumproject Coverage Results" MODIFIED="1568981413190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qshop" />
+    <SUITE FILE_PATH="coverage/Qshop$assert11111.coverage" NAME="assert11111 Coverage Results" MODIFIED="1569032982809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qshop" />
+    <SUITE FILE_PATH="coverage/Qshop$sendMail.coverage" NAME="sendMail Coverage Results" MODIFIED="1568684769876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seller" />
+    <SUITE FILE_PATH="coverage/Qshop$randomcode.coverage" NAME="random—code Coverage Results" MODIFIED="1568727798957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Seller/templates/seller" />
+    <SUITE FILE_PATH="coverage/Qshop$loggggg.coverage" NAME="loggggg Coverage Results" MODIFIED="1568960491381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qshop" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Seller/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="das://b955d70a-9c47-42d9-b559-600a3f3f193d/schema/main/table/Seller_valid_code">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="5d1a1b68-3a2f-4b60-9b22-05948d84e696">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Qshop/Qshop/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/templates/seller/login.html" />
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/login.html" />
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/random—code.py" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/views.py" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/urls.py" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/CeleryTask/tasks.py" />
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/servers/basehttp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qshop/celery.py" />
+    <entry file="file://$PROJECT_DIR$/Qshop/urls.py" />
+    <entry file="file://$PROJECT_DIR$/CeleryTask/tasks.py" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/templates/seller/order_list.html" />
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/base.html" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/templates/seller/base.html" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/views.py" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Seller/urls.py" />
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/base.html" />
+    <entry file="das://b955d70a-9c47-42d9-b559-600a3f3f193d/schema/main/table/Buyer_orderinfo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b57638b0-2e60-4811-822c-52df40e069d8">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="157" selection-start-line="157" selection-end-line="157" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/handlers/exception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/utils/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/goods_list.html" />
+    <entry file="file://$PROJECT_DIR$/CeleryTask/views.py" />
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/goods_add.html" />
+    <entry file="das://b955d70a-9c47-42d9-b559-600a3f3f193d/schema/main/table/Seller_loginuser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="0824e076-7a15-418b-92b6-34f683d188bc">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b955d70a-9c47-42d9-b559-600a3f3f193d/schema/main/table/Seller_goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="0824e076-7a15-418b-92b6-34f683d188bc">
+          <filtering />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/models.py" />
+    <entry file="file://$PROJECT_DIR$/Qshop/loggggg.py" />
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/conf/global_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="485" column="54" lean-forward="true" selection-start-line="485" selection-start-column="54" selection-end-line="485" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qshop/test.log" />
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/514261200/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="4775" column="8" selection-start-line="4775" selection-start-column="8" selection-end-line="4775" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seller/templates/seller/order_list.html" />
+    <entry file="file://$PROJECT_DIR$/../../jango_teacher/DjangoFrameWork/Qshop/Buyer/templates/buyer/goods_list.html" />
+    <entry file="file://$PROJECT_DIR$/Qshop/seleniumproject.py" />
+    <entry file="file://$PROJECT_DIR$/Qshop/assert11111.py" />
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/detail.html" />
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/cart2.html" />
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/cart.html" />
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/cart3.html" />
+    <entry file="file://$PROJECT_DIR$/Seller/models.py" />
+    <entry file="das://b955d70a-9c47-42d9-b559-600a3f3f193d/schema/main/table/Buyer_cart">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="c9e6f0e4-e402-4c91-84a8-e755b1ffba5c">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/templates/buyer/goods_list.html" />
+    <entry file="file://$PROJECT_DIR$/../../../Qshop/Seller/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
-          <caret line="195" column="1" lean-forward="true" selection-end-line="195" selection-end-column="1" />
+          <caret line="270" column="40" lean-forward="true" selection-end-line="270" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda/envs/DjangoPath/Lib/site-packages/django/core/management/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#218#574#0" />
+            <element signature="e#608#708#0" />
+            <element signature="e#807#1514#0" />
+            <element signature="e#1544#2120#0" />
+            <element signature="e#2148#2364#0" />
+            <element signature="e#2391#2702#0" />
+            <element signature="e#2728#2779#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seller/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+          <folding>
+            <element signature="e#257#357#0" />
+            <element signature="e#385#766#0" />
+            <element signature="e#796#1432#0" />
+            <element signature="e#1482#2927#0" />
+            <element signature="e#2955#3151#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Seller/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Qshop/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="159" column="23" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
+        <state relative-caret-position="-529">
+          <caret line="159" column="23" lean-forward="true" selection-start-line="159" selection-start-column="23" selection-end-line="159" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buyter/urls.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Seller/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buyer/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qshop/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
