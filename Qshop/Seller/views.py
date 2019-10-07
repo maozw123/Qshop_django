@@ -103,6 +103,63 @@ def base(request):
     return render(request, 'seller/base.html', locals())
 
 
+import json
+import requests
+from Qshop.settings import DING_URL
+
+
+def sendDing(content, to=None):
+    headers = {
+        "Content-Type": "application/json",
+        "Charset": "utf-8"
+    }
+    requests_data = {
+        "msgtype": "text",
+        "text": {
+            "content": content
+        },
+        "at": {
+            "atMobiles": [
+            ],
+            "isAtAll": True
+        }
+    }
+    if to:
+        requests_data["at"]["atMobiles"].append(to)
+        requests_data["at"]["isAtAll"] = False
+    else:
+        requests_data["at"]["atMobiles"].clear()
+        requests_data["at"]["isAtAll"] = True
+    sendData = json.dumps(requests_data)
+    response = requests.post(url=DING_URL, headers=headers, data=sendData)
+    content = response.json()
+    return content
+
+
+from django.views.decorators.csrf import csrf_exempt
+from CeleryTask.tasks import sendDing
+
+@csrf_exempt
+def send_login_code(request):
+    result = {
+        "code": 200,
+        "data": ""
+    }
+    if request.method == "POST":
+        email = request.POST.get("email")
+        code = random_code()
+        c = Valid_Code()
+        c.code_user = email
+        c.code_content = code
+        c.save()
+        send_data = "%s的验证码是%s" % (email, code)
+        # sendDing(send_data)  # 发送验证
+        sendDing.delay(send_data)
+        result["data"] = "发送成功"
+    else:
+        result["code"] = 400
+        result["data"] = "请求错误"
+    return JsonResponse(result)
 
 
 

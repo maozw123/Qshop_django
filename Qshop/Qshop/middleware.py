@@ -1,6 +1,7 @@
 from django.utils.deprecation import MiddlewareMixin
 from django.http import HttpResponse
 from Qshop.settings import ERROR_PATH
+from Seller.views import sendDing
 # from Seller.views import sendDing
 import time
 

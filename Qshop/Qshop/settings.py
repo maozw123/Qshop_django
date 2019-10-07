@@ -155,6 +155,7 @@ CACHE_MIDDLEWARE_ALIAS = 'default'
 # -----END RSA PRIVATE KEY-----"""
 #
 # DING_URL = "https://oapi.dingtalk.com/robot/send?access_token=f4fd508235765957cf73ee30bc84bf178b667b5b88e150aa5f5db080ee5205bb"
+DING_URL = "https://oapi.dingtalk.com/robot/send?access_token=f4fd508235765957cf73ee30bc84bf178b667b5b88e150aa5f5db080ee5205bb"
 
 import djcelery
 djcelery.setup_loader()
